@@ -9,5 +9,17 @@ object Q03 {
     var k:Float=4.3F
     
     
+    b-=1
+    d-=1
+    println(b*a+c*d)
+    
+    a+=1
+    println(a)
+
+    c+=1
+    println(c)
+    println(c*a)
+
+    
   }
 }
