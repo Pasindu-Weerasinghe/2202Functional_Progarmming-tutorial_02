@@ -12,12 +12,12 @@ object Q04_a {
       println("Take home salary : "+totalsalary)
     }
     else{
-       println("work hours or OTP hours is not valid ")
+       println("work hours or OT hours are Invalid ")
     }
   }
   
   def calsalary(workh:Int,OT:Int):Int={
-    var salary=(workh*250+OT*85)*0.88
+    var salary=(workh*250+OT*85)*0.88F
     var totalsalary=salary.toInt
     return totalsalary
   }
